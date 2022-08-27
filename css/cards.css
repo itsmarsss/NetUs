@@ -21,7 +21,10 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.6rem;
-    margin: 1rem;
+    /* margin-top: 17%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin: 1rem; */
 }
 
 .cards>.card {
@@ -73,7 +76,7 @@ body {
 
 .button {
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
 }
 
 .button>.loadmore {
