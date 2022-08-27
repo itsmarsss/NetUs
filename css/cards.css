@@ -26,6 +26,8 @@
 .cards>.card:hover {
     box-shadow: none;
     cursor: pointer;
+    transform: scaleY(1.25);
+    transform-origin: bottom;
 }
 
 

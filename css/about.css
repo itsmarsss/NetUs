@@ -21,7 +21,6 @@ h1 {
     justify-content: center;
     opacity: 0;
     transition: 500ms;
-    text-align: center;
 }
 
 h1.is-visible {
@@ -30,6 +29,17 @@ h1.is-visible {
 }
 
 .show-on-scroll {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 20px;
+    margin-right: 80px;
+}
+
+p {
+    margin-left: 80px
+}
+
+.members {
+    text-align: center;
 }
