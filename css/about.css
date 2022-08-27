@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -17,11 +17,19 @@ p.is-visible {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
     opacity: 0;
     transition: 500ms;
+    text-align: center;
 }
 
 h1.is-visible {
     opacity: 1;
     transform: translateX(50px);
+}
+
+.show-on-scroll {
+    text-align: center;
+    padding: 20px;
 }

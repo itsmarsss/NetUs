@@ -4,7 +4,7 @@ html {
 }
 
 b {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .login_box {
@@ -49,7 +49,7 @@ b {
 
 .login_button {
     border: none;
-    background-color: #1a73e8;
+    background-color: #3080e9;
     color: white;
     border-radius: 5px;
     padding: 0.5rem;
@@ -67,7 +67,7 @@ b {
 }
 
 a {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
 }
 
