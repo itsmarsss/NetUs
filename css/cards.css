@@ -1,3 +1,22 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-45deg, #3b48d7, #84f0dc, #d7bceb, #8391ed);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -26,8 +45,8 @@
 .cards>.card:hover {
     box-shadow: none;
     cursor: pointer;
-    transform: scaleY(1.25);
-    transform-origin: bottom;
+    transform: scaleX(1.15);
+    transform: scaleY(1.15);
 }
 
 

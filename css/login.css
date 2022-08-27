@@ -2,6 +2,25 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(-45deg, #3b48d7, #84f0dc, #d7bceb, #8391ed);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 err, b {
     font-family: "Montserrat", sans-serif;
     transition: 100ms;
