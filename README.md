@@ -12,4 +12,3 @@
 
 ### Desktop preview: ###
 <img width="949" alt="Captur33e" src="https://user-images.githubusercontent.com/56855196/187039863-3ddfd001-7949-483b-bee6-39484a7d8c4c.PNG">
-

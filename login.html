@@ -55,16 +55,16 @@
 
     <div class="login_box">
         <h1 class="title">Login to NetUs</h1>
-        <form method = "POST" action = "/LoginServlet">
+
+        <form method = "POST" action = "/NetUs/LoginServlet">
             <h4>Enter username:</h4>
-            <input type="text" id = "userInput">
+            <input class="input_box" type="text" name="user" placeholder="Username">
             <h4>Enter password:</h4>
-            <input type="text" id = "password">
-            <input class="login_button" type="button" value="Login">
+            <input class="input_box" type="password" name="pass" placeholder="Password">
+            <input class="login_button" type="submit" value="Login">
         </form>
     </div>
 
-    <script type="text/javascript" src="js/login.js"></script>
 
 </body>
 </html>

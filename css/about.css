@@ -1,11 +1,7 @@
-html {
-    scroll-behavior: smooth;
-    
-}
-
 p {
     opacity: 0;
     transition: opacity .5s .25s ease-out;
+    margin-left: 80px
 }
 
 p.is-visible {
@@ -13,15 +9,15 @@ p.is-visible {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
     opacity: 0;
-    transition: 500ms;
+    transition: 100ms;
 }
 
 h1.is-visible {
     opacity: 1;
-    transform: translateX(50px);
+    transform: translateX(42px);
 }
 
 .show-on-scroll {
@@ -30,10 +26,6 @@ h1.is-visible {
     text-align: center;
     padding: 20px;
     margin-right: 80px;
-}
-
-p {
-    margin-left: 80px
 }
 
 .members {

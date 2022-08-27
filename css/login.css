@@ -1,10 +1,6 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(-45deg, #3b48d7, #84f0dc, #d7bceb, #8391ed);
+    background: linear-gradient(45deg, #3b48d7, #84f0dc, #d7bceb, #8391ed);
     background-size: 400% 400%;
     animation: gradient 7s ease infinite;
 }
@@ -19,20 +15,6 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
-
-err, b {
-    font-family: "Montserrat", sans-serif;
-    transition: 100ms;
-}
-
-err {
-    opacity: 0;
-    color: red;
-}
-
-err.error.show-error {
-    opacity: 1;
 }
 
 .login_box {
@@ -76,10 +58,6 @@ err.error.show-error {
     padding: 0.75rem;
 }
 
-.password_login {
-    margin: auto;
-}
-
 .login_button {
     border: none;
     background-color: #1a73e8;
@@ -93,17 +71,4 @@ err.error.show-error {
 .login_button:hover {
     background-color: #1b66ca;
     box-shadow: 0rem 0.05rem 0.05rem #000000;
-}
-
-.login {
-    vertical-align: middle;
-}
-
-a {
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-}
-
-a:hover {
-    color: cornflowerblue;
 }
