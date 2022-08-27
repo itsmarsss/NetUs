@@ -50,21 +50,20 @@
                 <span class="slider round"></span>
             </label>
         </a> 
+        
     </div>
 
     <div class="signup_box">
         <h1 class="title">Sign up for NetUs</h1>
-        <form method = "POST" action = "/SignupServlet">
+        <form method = "POST" action = "/NetUs/SignupServlet">
             <h4>Create your username:</h4>
-            <input type="text" id = "newUser">
+            <input class="input_box" type="text" name="newUser" placeholder="Username">
             <h4>Create your password:</h4>
-            <input type="text" id = "newPassword">
-            <input class="sign_up_button" type="button" value="Sign up">
+            <input class="input_box" type="password" name="newPass" placeholder="Password">
+            <input class="signup_button" type="submit" value="Sign up">
         </form>
     </div>
 
-    
 
 </body>
-
 </html>

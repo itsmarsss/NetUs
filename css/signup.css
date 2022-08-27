@@ -1,8 +1,3 @@
-html {
-    scroll-behavior: smooth;
-    
-}
-
 body {
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(-45deg, #3b48d7, #84f0dc, #d7bceb, #8391ed);
@@ -22,10 +17,6 @@ body {
     }
 }
 
-b {
-    font-family: "Montserrat", sans-serif;
-}
-
 .signup_box {
     padding: 5rem;
     margin: auto;
@@ -37,6 +28,11 @@ b {
 
     border-radius: 15px;
     border: solid var(--tertiary) 2px;
+    transition: 300ms;
+}
+
+.signup_box:hover {
+	padding: 5.5rem;	
 }
 
 .title {
@@ -62,31 +58,17 @@ b {
     padding: 0.75rem;
 }
 
-
-.sign_up_button {
+.signup_button {
     border: none;
-    background-color: #3080e9;
+    background-color: #1a73e8;
     color: white;
     border-radius: 5px;
     padding: 0.5rem;
-    margin-top: 0.5rem;
+    margin-left: 0.5rem;
     transition: 50ms;
 }
 
-.login_button:hover {
+.signup_button:hover {
     background-color: #1b66ca;
     box-shadow: 0rem 0.05rem 0.05rem #000000;
-}
-
-.login {
-    vertical-align: middle;
-}
-
-a {
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-}
-
-a:hover {
-    color: cornflowerblue;
 }
