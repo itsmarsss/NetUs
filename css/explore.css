@@ -16,3 +16,7 @@
 body {
     padding-bottom: 4rem;
 }
+
+.connectionTitle {
+    text-align: center;
+}
