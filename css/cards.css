@@ -74,12 +74,13 @@ body {
     padding-right: 1rem;
 }
 
-.button {
+.button2 {
     text-align: center;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-.button>.loadmore {
+.button2>.loadmore {
     font-size: large;
     border: none;
     background-color: var(--secondary);
@@ -89,12 +90,12 @@ body {
     transition: 100ms;
 }
 
-.button>.loadmore:hover {
+.button2>.loadmore:hover {
     padding: 0.75rem;
     background-color: var(--tertiary);
 }
 
-.button>.loadmore:active {
+.button2>.loadmore:active {
     padding: 0.45rem;
     background-color: var(--secondary);
 }

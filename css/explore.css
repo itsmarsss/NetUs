@@ -1,11 +1,11 @@
 .search {
-    display:flex;
+    display: flex;
     justify-content: center;    
     margin: auto;
 }
 
 .searchbar {
-    display:flex;
+    display: flex;
     justify-content: center;    
     margin-left: 10px;
     margin-top: 10px;

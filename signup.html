@@ -20,7 +20,7 @@
             Home
         </a>
 
-        <a class="navbar_item active" href="explore.html">
+        <a class="navbar_item" href="explore.html">
             Explore
         </a>
 
@@ -40,22 +40,22 @@
             Login
         </a>
 
-        <a class="navbar_item login" href="signup.html">
+        <a class="navbar_item login active" href="signup.html">
             Sign up
         </a>
 
-        <a class="navbar_item login"> 
-            <label class="switch">
+        <a class="navbar_item login">
+            <label class="switch" id="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
-        </a> 
-        
+        </a>
+
     </div>
 
     <div class="signup_box">
         <h1 class="title">Sign up for NetUs</h1>
-        <form method = "POST" action = "/NetUs/SignupServlet">
+        <form method="POST" action="/NetUs/SignupServlet">
             <h4>Create your username:</h4>
             <input class="input_box" type="text" name="newUser" placeholder="Username">
             <h4>Create your password:</h4>
@@ -64,6 +64,8 @@
         </form>
     </div>
 
+    <script type="text/javascript" src="js/switchlistener.js"></script>
 
 </body>
+
 </html>

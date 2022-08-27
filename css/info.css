@@ -1,85 +1,70 @@
-/* Welcome to */
-
 .wel {
-position: relative;
-padding-left:1em;  
+    position: relative;
+    padding-left: 1em;
 
-font-family: 'IM FELL French Canon';
-font-style: normal;
-font-weight: 400;
-font-size: 42px;
-line-height: 49px;
-letter-spacing: 0.09em;
+    font-family: 'IM FELL French Canon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.09em;
 
-color: #0088BB;
-
+    color: #0088BB;
 }
-
-
 
 /* A place where you can bring ALL your social media accounts into one plateform and make meaningful discussions */
 
-
 .para {
-position: relative;
-padding-left:2em;
-padding-right:30%;
+    position: relative;
+    padding-left: 2em;
+    padding-right: 30%;
 
-font-family: 'IM FELL French Canon';
-font-style: normal;
-font-weight: 400;
-font-size: 29px;
-line-height: 34px;
-letter-spacing: 0.04em;
+    font-family: 'IM FELL French Canon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+    letter-spacing: 0.04em;
 
-color: #000000;
+    color: #000000;
 }
-
-    
 
 .try {
     /* float: left;  */
     position: relative;
-    padding-left:2em;
+    padding-left: 2em;
 
-font-family: 'IM FELL French Canon';
-font-style: normal;
-font-weight: 400;
-font-size: 29px;
-line-height: 34px;
+    font-family: 'IM FELL French Canon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
 
-letter-spacing: 0.04em;
+    letter-spacing: 0.04em;
 
-color: #000000;
-
-
-} 
-
-
-
-.image{
-float: right; 
-padding-left: 10%;
-padding-right: 10%;
-width: 400px;
-height: 200px;
-left: 300px;
-top: 174px;
+    color: #000000;
 }
 
+.image {
+    float: right;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 400px;
+    height: 200px;
+    left: 300px;
+    top: 174px;
+}
 
 .button {
-    /* float: left;  */
+    /* float: left; */
     background-color: #1c87c9;
     color: white;
-    
+
     left: 10%;
-    padding: 1em 1em; 
+    padding: 1em 1em;
     display: inline-block;
     position: relative;
     text-decoration: none;
+    border-radius: 15px;
+    margin-bottom: 2rem;
 }
-
-
-
- 

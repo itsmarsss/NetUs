@@ -4,25 +4,35 @@
 
 :root {
     --base: #00ccd3;
+    --base2: #04AA6D;
 
     --primary: #ffffff;
     --secondary: #e5e5e5;
     --tertiary: #e8e4e4;
     --quaternary: #f8f4f4;
 
-    
-
     --primary-text: #000000;
     --secondary-text: #030303;
     --tertiary-text: #606060;
 
     --background: #f9f9f9;
-<<<<<<< Updated upstream
+}
+
+.dark-theme {
+
+    --primary: #0e0e0e;
+    --secondary: #3d3d3d;
+    --tertiary: #5a5a5a;
+    --quaternary: #383232;
+
+    --primary-text: #ffffff;
+    --secondary-text: #e7e7e7;
+    --tertiary-text: #bbbbbb;
+
+    --background: #4b4b4b;
+
 }
 
 html {
     scroll-behavior: smooth;
 }
-=======
-} 
->>>>>>> Stashed changes

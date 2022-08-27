@@ -45,7 +45,7 @@ a {
 
 .navbar .active {
     font-weight: bold;
-    background-color: #04AA6D;
+    background-color: var(--base2);
     color: white;
 }
 

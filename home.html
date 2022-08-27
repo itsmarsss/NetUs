@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NetUs | Home</title>
     <meta content="NetUs" property="og:title" />
-    <meta content="A place where you can bring ALL your social media accounts into one platform and make meaningful discussions!" property="og:description" />
+    <meta
+        content="A place where you can bring ALL your social media accounts into one platform and make meaningful discussions!"
+        property="og:description" />
     <meta content="http://www.netus.tk:8080/NetUs/home" property="og:url" />
     <meta content="http://www.netus.tk:8080/NetUs/assets/NetUSIcon.PNG" property="og:image" />
     <meta content="#00ccd3" data-react-helmet="true" name="theme-color" />
@@ -51,8 +53,8 @@
             Sign up
         </a>
 
-        <a class="navbar_item login"> 
-            <label class="switch">
+        <a class="navbar_item login">
+            <label class="switch" id="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
             </label>
@@ -61,20 +63,20 @@
     </div>
 
     <div>
-        <img class="image" src="assets/peer.PNG" > 
-    <p class="wel">Welcome to NetUs</p>
-    <p class="para">A place where you can bring ALL your social media accounts into one plateform and make meaningful discussions</p>
-    <p class="try">Try it Out today!</p>
-    <a href="signup.html" class="button"> Sign Up </a>
+        <img class="image" src="assets/peer.PNG">
+        <p class="wel">Welcome to NetUs</p>
+        <p class="para">A place where you can bring ALL your social media accounts into one plateform and make
+            meaningful discussions</p>
+        <p class="try">Try it Out today!</p>
+        <a href="signup.html" class="button"> Sign Up </a>
     </div>
 
-
-<br> 
     <div class="cards" id="cards">
     </div>
-    
 
-
+    <div class="button2">
+        <input type="button" class="loadmore" onclick="loadMore()" value="Load More">
+    </div>
 
     <script type="text/javascript" src="js/cards.js"></script>
     <script type="text/javascript" src="js/show-on-scroll.js"></script>
