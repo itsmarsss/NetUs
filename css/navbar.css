@@ -34,11 +34,13 @@ a {
 
 .navbar .active {
     font-weight: bold;
-    background-color: var(--tertiary);
+    background-color: #04AA6D;
+    color: white;
 }
 
 .navbar .active:hover .active:active {
     background-color: var(--secondary);
+    color: black;
 }
 
 .navbar .login {

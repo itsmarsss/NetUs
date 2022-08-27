@@ -1,0 +1,71 @@
+b {
+    font-family: "Roboto", sans-serif;
+}
+
+.login_box {
+    padding: 5rem;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 30vw;
+
+    background: var(--primary);
+
+    border-radius: 15px;
+    border: solid var(--tertiary) 2px;
+}
+
+.title {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-family: monospace;
+}
+
+.username_login {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.input_box {
+    border: solid black 1px;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    transition: 100ms;
+}
+
+.input_box:hover {
+    padding: 0.75rem;
+}
+
+.password_login {
+    margin: auto;
+}
+
+.login_button {
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    transition: 50ms;
+}
+
+.login_button:hover {
+    background-color: #1b66ca;
+    box-shadow: 0rem 0.05rem 0.05rem #000000;
+}
+
+.login {
+    vertical-align: middle;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
