@@ -1,0 +1,76 @@
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem;
+    margin: 1rem;
+
+}
+
+.cards > .card {
+    opacity: 0;
+    border-radius: 1rem;
+    border: solid lightgrey 1px;
+    box-shadow: 0 0.5rem 1rem lightgrey;
+    transition: 500ms;
+    display: block;
+    place-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.cards > .card.is-visible {
+    opacity: 1;
+}
+
+.cards > .card:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+.cards > .card > .user > .top > .pfp{
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: solid blue 2px;
+}
+
+.cards > .card > .user > .top > .name {
+    text-align: center;
+}
+
+.cards > .card > .user > .bottom > .about {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.button > .loadmore {
+    font-size: large;
+    border: none;
+    background-color: var(--secondary);
+    color: var(--primary-text);
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: 100ms;
+}
+
+.button > .loadmore:hover {
+    padding: 0.75rem;
+    background-color: var(--tertiary);
+}
+
+.button > .loadmore:active {
+    padding: 0.45rem;
+    background-color: var(--secondary);
+}

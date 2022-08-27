@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: var(--background);
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: var(--primary);
+    margin-bottom: 2rem;
+}
+
+.navbar .navbar_item {
+    float: left;
+    color: var(--primary-text);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    transition: 200ms;
+}
+
+.navbar .navbar_item:hover {
+    background-color: var(--quaternary);
+}
+
+.navbar .navbar_item:active {
+    background-color: var(--secondary);
+    color: var(--secondary-text);
+}
+
+.navbar .active {
+    font-weight: bold;
+    background-color: var(--tertiary);
+}
+
+.navbar .active:hover .active:active {
+    background-color: var(--secondary);
+}
+
+.navbar .login {
+    float: right;
+}
