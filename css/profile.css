@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display:block;
+    margin-left: 30%;
+}
+
+
+.information {
+    padding: 20px;
+    max-width: 50%;
+}
+
+.image {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin-top: 0%;
+    display: block;
+}
