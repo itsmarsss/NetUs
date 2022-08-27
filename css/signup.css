@@ -3,6 +3,7 @@ body {
     background: linear-gradient(-45deg, #3b48d7, #84f0dc, #d7bceb, #8391ed);
     background-size: 400% 400%;
     animation: gradient 7s ease infinite;
+    color: var(--primary-text);
 }
 
 @keyframes gradient {
