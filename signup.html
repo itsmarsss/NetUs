@@ -39,7 +39,7 @@
             Login
         </a>
 
-        <a class="navbar_item login" href="createacc.html">
+        <a class="navbar_item login" href="signup.html">
             Sign up
         </a>
 
@@ -47,7 +47,15 @@
 
     <div class="login_box">
         <h1 class="title">Sign up for NetUs</h1>
-        <table class="table">
+        <form>
+            <h4>Create your username:</h4>
+            <input type="text" id = "newUser">
+            <h4>Create your password:</h4>
+            <input type="text" id = "newPassword">
+            <input class="login_button" type="button" value="Login">
+        </form>
+
+        <!-- <table class="table">
             <tr>
                 <td> <b>Type in your Username/Email:</b> </td>
             </tr>
@@ -60,19 +68,17 @@
             <tr>
                 <td> <input class="input_box" id="password" placeholder="Password" type="password"> </td>
             </tr>
-            <!-- connect to backend and use a function that keeps track of the user's info -->
             <tr>
                 <td>
                     <a href="signup.html">Create Account</a>
                 </td>
             </tr>
             <tr>
-                <!-- backend: change the onclick to registering -->
                 <td>
                     <input class="login_button" onclick="login()" type="button" value="Submit">
                 </td>
             </tr>
-        </table>
+        </table> -->
     </div>
 
     
