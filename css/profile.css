@@ -7,7 +7,7 @@
 .information {
     padding: 20px;
     max-width: 50%;
-    background-color: white;
+    background-color: var(--primary);
 }
 
 .image {
