@@ -28,7 +28,7 @@ body {
     opacity: 0;
     border-radius: 1rem;
     border: solid lightgrey 1px;
-    box-shadow: 0 0.5rem 1rem lightgrey;
+    box-shadow: 0 0.5rem 1rem #d3d3d385;
     transition: 500ms;
     display: block;
     place-items: center;
