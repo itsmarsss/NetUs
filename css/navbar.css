@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     background-color: var(--background);
@@ -12,6 +13,9 @@ a {
     overflow: hidden;
     background-color: var(--primary);
     margin-bottom: 2rem;
+    padding: 1px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .navbar .navbar_item {
