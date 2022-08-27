@@ -1,8 +1,11 @@
-err {
+err, b {
     font-family: "Roboto", sans-serif;
-    color: red;
-    opacity: 0;
     transition: 100ms;
+}
+
+err {
+    opacity: 0;
+    color: red;
 }
 
 err.error.show-error {
