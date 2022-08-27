@@ -45,7 +45,7 @@ body {
 .cards>.card:hover {
     box-shadow: none;
     cursor: pointer;
-    transform: scaleX(1.15);
+    transform: scaleX(1.35);
     transform: scaleY(1.15);
 }
 

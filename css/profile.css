@@ -11,6 +11,7 @@ html {
 .information {
     padding: 20px;
     max-width: 50%;
+    background-color: white;
 }
 
 .image {
@@ -22,4 +23,5 @@ html {
 ul {
     margin-top: 0%;
     display: block;
+    overflow: hidden;
 }
