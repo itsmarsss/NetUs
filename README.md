@@ -11,4 +11,8 @@
 - Connect to other users or search them up
 
 ### Desktop preview: ###
-<img width="949" alt="Captur33e" src="https://user-images.githubusercontent.com/56855196/187039863-3ddfd001-7949-483b-bee6-39484a7d8c4c.PNG">
+![NetUsDesktopView](https://user-images.githubusercontent.com/89033502/187055612-b4cf87c3-c2e3-4715-8dab-32f6e444b4c7.png)
+
+### iPad preview: ###
+![netUsIPadView](https://user-images.githubusercontent.com/89033502/187055651-344a8754-5602-4ea5-9597-3e9713d8e5dd.jpg)
+
