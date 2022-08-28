@@ -1,18 +1,13 @@
 let dark = false;
 const tswitch = document.getElementById("switch");
+const cbox = document.getElementById("box");
     console.log(getCookie("dark"));
 try {
     if (getCookie("dark") === "true") {
         toggle();
-        triggerMouseEvent(tswitch, "mouseup");
+        cbox.click();
     }
 } catch (error) { }
-
-function triggerMouseEvent(node, eventType) {
-    var clickEvent = document.createEvent('MouseEvents');
-    clickEvent.initEvent(eventType, true, true);
-    node.dispatchEvent(clickEvent);
-}
 
 if (getCookie("auth") == "true") {
     const logins = document.querySelectorAll(".toBeGone");
