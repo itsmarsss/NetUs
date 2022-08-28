@@ -36,9 +36,8 @@ body {
     display: block;
     place-items: center;
     justify-content: center;
-    background-color: aquamarine;
-    background: -webkit-linear-gradient(to right, #369ae2, aquamarine);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #348AC7, rgb(86, 221, 176)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #5adc18;
+   
 }
 
 .cards>.card.is-visible {
