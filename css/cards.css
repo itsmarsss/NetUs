@@ -42,11 +42,6 @@ body {
 }
 
 .cards>.card.is-visible {
-
-   
-}
-
-.cards>.card.is-visible {
     opacity: 1;
 }
 
