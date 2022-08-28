@@ -1,10 +1,17 @@
 const tswitch = document.getElementById("switch");
+    console.log(getCookie("dark"));
 try {
-    if (window.sessionStorage.getItem("dark") == "true") {
+    if (getCookie("dark") === "true") {
         toggle();
-        tswitch.click();
+        triggerMouseEvent(tswitch, "mousedown");
     }
 } catch (error) { }
+
+function triggerMouseEvent(node, eventType) {
+    var clickEvent = document.createEvent('MouseEvents');
+    clickEvent.initEvent(eventType, true, true);
+    node.dispatchEvent(clickEvent);
+}
 
 if (getCookie("auth") == "true") {
     const logins = document.querySelectorAll(".toBeGone");
@@ -26,7 +33,8 @@ tswitch.addEventListener("mousedown", (event) => {
 function toggle() {
     document.body.classList.toggle('dark-theme');
     dark = !dark;
-    window.sessionStorage.setItem("dark", dark);
+    setCookie("dark", dark.toString());
+    console.log(dark);
 }
 
 function setCookie(name, value, days) {
