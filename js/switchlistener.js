@@ -5,6 +5,21 @@ try {
         tswitch.click();
     }
 } catch (error) { }
+
+try {
+    if (window.sessionStorage.getItem("auth") == "true") {
+        const logins = document.getElementsByClassName("toBeGone");
+        logins.forEach(function (element) {
+            element.classList.add('hide');
+        });
+    }else if (window.sessionStorage.getItem("auth") == "false") {
+        const logins = document.getElementsByClassName("toBeGone");
+        logins.forEach(function (element) {
+            element.classList.remove('hide');
+        });
+    }
+} catch (error) { }
+
 let dark = false;
 tswitch.addEventListener("mousedown", (event) => {
     toggle();
