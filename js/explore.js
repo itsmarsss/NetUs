@@ -1,4 +1,13 @@
 const cards = document.getElementById("cards");
+const query = document.getElementById("query");
+
+query.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        cards.innerHTML = "";
+        getUsers();
+        loadAll();
+    }
+});
 
 function selected(site) {
     window.open(site, "_blank");
@@ -17,22 +26,22 @@ function getUsers() {
     users = JSON.parse(response)
 }
 
-loadMore();
+loadAll();
 
-function loadMore() {
+function loadAll() {
     const length = users.length;
-    if (length == 0) {
-        alert('No more users!');
-    } else {
-        try {
-            for (var i = 0; i <= Math.min(length, 12); i++) {
-                console.log(i);
-                let user = users.shift();
-                let link = hex_to_ascii(user.website);
-                let name = hex_to_ascii(user.username);
-                let pfp = hex_to_ascii(user.pfp); //'assets/placeholder.png'
-                let about = hex_to_ascii(user.aboutme); //'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi'
+    const queryTerm = query.value;
+    try {
+        for (var i = 0; i <= length; i++) {
+            console.log(i);
+            let user = users.shift();
+            let link = hex_to_ascii(user.website);
+            let name = hex_to_ascii(user.username);
+            let pfp = hex_to_ascii(user.pfp); //'assets/placeholder.png'
+            let about = hex_to_ascii(user.aboutme); //'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi'
 
+            if (name.toLowerCase().includes(queryTerm.toLowerCase())
+                || about.toLowerCase().includes(queryTerm.toLowerCase())) {
                 cards.innerHTML +=
                     `<div class="card show-on-scroll">
                 <div class="user" id="link" onclick="selected('${link}')">
@@ -51,8 +60,8 @@ function loadMore() {
                 </div>
             </div>`
             }
-        } catch (error) { }
-    }
+        }
+    } catch (error) { }
 }
 
 function hex_to_ascii(str1) {
