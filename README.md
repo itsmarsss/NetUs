@@ -16,3 +16,8 @@
 ### iPad preview: ###
 ![netUsIPadView](https://user-images.githubusercontent.com/89033502/187055651-344a8754-5602-4ea5-9597-3e9713d8e5dd.jpg)
 
+### Phone preview: ###
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/88464166/187078267-a898cd53-1efb-4e56-8add-3bbe0ff4088a.png" width="400" >
+</h1>
+
