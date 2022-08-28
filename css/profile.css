@@ -71,3 +71,7 @@ body {
     padding: 0.45rem;
     background-color: var(--secondary);
 }
+
+button {
+    max-width: fit-content;
+}
