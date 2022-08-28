@@ -13,7 +13,7 @@
 ### Desktop preview: ###
 ![NetUsDesktopView](https://user-images.githubusercontent.com/89033502/187055612-b4cf87c3-c2e3-4715-8dab-32f6e444b4c7.png)
 
-### iPad preview: ###
+### Tablet preview: ###
 ![netUsIPadView](https://user-images.githubusercontent.com/89033502/187055651-344a8754-5602-4ea5-9597-3e9713d8e5dd.jpg)
 
 ### Phone preview: ###
