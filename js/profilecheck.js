@@ -2,6 +2,8 @@ if (getCookie("auth") != "true") {
     window.location = "/NetUs/login.html";
 }
 
+updateLocal();
+
 function updateLocal() {
     const pfp = document.getElementById("pfp");
     const aboutme = document.getElementById("aboutme");
