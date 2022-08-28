@@ -42,3 +42,9 @@ ul {
 body {
     color: var(--primary-text)
 }
+
+.infoInput {
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+}
