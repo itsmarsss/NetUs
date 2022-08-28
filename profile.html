@@ -77,19 +77,19 @@
             <input class="button" type="submit" value="Submit Code" onclick="updateLocal()">
         </form>
 
-        <button class = "logout" type="Logout">Logout</button>
+        <button class="button" onclick="logout()">Logout</button>
 
     </div>
 
     <div class="container">
         <div class="information">
             <div class="image">
-                <img src="assets/placeholder.png" alt="pfp" width="100" height="100">
+                <img id="pfp" src="assets/placeholder.png" alt="pfp" width="100" height="100">
             </div>
 
             <!-- link user's info variables into these containers and tags -->
             <h4>About me</h4>
-            <p>
+            <p id="aboutme">
                 My name is Yoshikage Kira. I’m 33 years old. My house is in the northeast section of Morioh, where all
                 the villas are, and I am not married. I work as an employee for the Kame Yu department stores, and I get
                 home every day by 8 PM at the latest. I don’t smoke, but I occasionally drink. I’m in bed by 11 PM, and
@@ -114,7 +114,7 @@
     </div>
 
     <script type="text/javascript" src="js/switchlistener.js"></script>
-    <!--<script type="text/javascript" src="js/profilecheck.js"></script>-->
+    <script type="text/javascript" src="js/profilecheck.js"></script>
 
 </body>
 
