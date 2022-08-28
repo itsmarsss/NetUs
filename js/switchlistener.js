@@ -1,9 +1,10 @@
+let dark = false;
 const tswitch = document.getElementById("switch");
     console.log(getCookie("dark"));
 try {
     if (getCookie("dark") === "true") {
         toggle();
-        triggerMouseEvent(tswitch, "mousedown");
+        triggerMouseEvent(tswitch, "mouseup");
     }
 } catch (error) { }
 
@@ -25,7 +26,6 @@ if (getCookie("auth") == "true") {
     });
 }
 
-let dark = false;
 tswitch.addEventListener("mousedown", (event) => {
     toggle();
 });
