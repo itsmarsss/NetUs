@@ -56,18 +56,25 @@
     </div>
 
     <div class = "infoInput">
-        <!-- file upload -->
-        <h5>Submit code file</h5>
-        <form method="POST" action="/NetUs/WebCodeServlet">
-            <input type="file" id="userFile" name="webCode">
-            <input type="submit">
+        <!-- profile picture -->
+        <h5>Submit your profile picture</h5>
+        <form method="POST" action="/NetUs/ProfilePicServlet">
+            <input type="text" name="profilePic"></textarea>   
+            <input type="submit" value="Submit" />
         </form>
 
         <!-- about me -->
         <h5>Submit your about me</h5>
         <form method="POST" action="/NetUs/AboutMeServlet">
             <textarea rows="4" cols="40" name="aboutMe"></textarea>   
-            <input type = "submit" value = "submit" />
+            <input type="submit" value="Submit" />
+        </form>
+
+        <!-- file upload -->
+        <h5>Submit code text</h5>
+        <form method="POST" action="/NetUs/WebCodeServlet">
+            <textarea rows="4" cols="40" name="webCode"></textarea>   
+            <input type="Submit">
         </form>
     </div>
 
