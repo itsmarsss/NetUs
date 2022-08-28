@@ -7,7 +7,12 @@ updateLocal();
 function updateLocal() {
     const pfp = document.getElementById("pfp");
     const aboutme = document.getElementById("aboutme");
-    pfp.outterHTML = `<img id="pfp" src="${getCookie("pfp")}" alt="pfp" width="100" height="100">`
+    const pfpL = getCookie('pfp');
+    const aboutmeL = getCookie('aboutme');
     
-    aboutme.outterHTML = `<p id="aboutme">${getCookie("aboutme")}</p>`
+    pfp.outerHTML = `<img id="pfp" src="${pfpL}" alt="pfp" width="100" height="100">`;
+    
+    aboutme.outerHTML = `<p id="aboutme">${aboutmeL}</p>`;
+    
+    console.log(pfp.outterHTML);
 }

@@ -8,7 +8,7 @@ loadMore();
 
 function loadMore() {
     for (let i = 0; i < 12; i++) {
-        let link = 'https://www.google.com/';
+        let link = 'https://itsmarsss.github.io/Calculator-app';
         let name = 'Name';
         let pfp = 'assets/placeholder.png';
         let about = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi'
