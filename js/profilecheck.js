@@ -13,6 +13,9 @@ function updateLocal() {
     pfp.outerHTML = `<img id="pfp" src="${pfpL}" alt="pfp" width="100" height="100">`;
     
     aboutme.outerHTML = `<p id="aboutme">${aboutmeL}</p>`;
-    
-    console.log(pfp.outterHTML);
+}
+
+function logout() {
+    deleteAllCookies();
+    window.location = "/NetUs/login.html";
 }

@@ -66,7 +66,7 @@
         <!-- about me -->
         <h5>Submit your about me</h5>
         <form method="POST" action="/NetUs/AboutMeServlet">
-            <textarea rows="4" cols="40" name="aboutMe"></textarea>   
+            <textarea rows="4" cols="40" name="aboutMe" max-length="5000"></textarea>   
             <input class="button" type="submit" value="Submit About Me" onclick="updateLocal()"/>
         </form>
 
